@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+    <head>
+        
+        <title>TheCodePlayer</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
+        <!-- link style.css -->
+        <link href="style.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        
+        <!--Navbar-->
+        <nav class="navbar justify-content-center navbar-expand-lg">
+
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">TheCodePlayer</a>
+
+          <div class="btn-group mx-auto align-items-center" role="group" aria-label="Basic example">
+            <button type="button" id="html" class="btn default">HTML</button>
+            <button type="button" id="css" class="btn">CSS</button>
+            <button type="button" id="javascript" class="btn">JAVASCRIPT</button>
+            <button type="button" id="output" class="btn default">OUTPUT</button>
+          </div>
+  
+          <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+
+        
+        <div id="bodyContainer">
+        
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello World!</p></textarea>
+            
+            <textarea id="cssPanel" class="panel hidden">p { color: green; }</textarea>
+            
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello Meow!";</textarea>
+            
+            <iframe id="outputPanel" class="panel"></iframe>
+        
+        </div>
+        
+
+            <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/js/mdb.min.js"></script>
+        <!-- main.js -->
+        <script type="text/javascript" src="main.js"></script>
+
+
+    </body>
+
+</html>
